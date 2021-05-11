@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DbmsPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Database Management"
+        android:textSize="30sp"
+        android:background="#5ce1e6"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:background="#fff" >
+
+            <Button
+                android:id="@+id/db_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="What is Database?"
+                android:textAlignment="textStart"/>
+
+            <Button
+                android:id="@+id/db_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="What is DBMS?"
+                android:textAlignment="textStart"    />
+
+            <Button
+                android:id="@+id/db_button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="Why do we need DBMS?"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/db_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="File Management System vs DBMS"
+                android:textAlignment="textStart"/>
+
+            <Button
+                android:id="@+id/db_button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="Database Admin and its Functions"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/db_button6"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Database Architecture"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/db_button7"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Important Terms" />
+
+            <Button
+                android:id="@+id/db_button8"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Database Language" />
+
+            <Button
+                android:id="@+id/db_button9"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Data Abstraction in DBMS" />
+
+            <Button
+                android:id="@+id/db_button10"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="3 level of Abstraction" />
+
+            <Button
+                android:id="@+id/db_button11"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="What is Referential Integrity?" />
+
+            <Button
+                android:id="@+id/db_button12"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="What is RDBMS?" />
+
+            <Button
+                android:id="@+id/db_button13"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Degree of Relation" />
+
+            <Button
+                android:id="@+id/db_button14"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Types of Keys" />
+
+            <Button
+                android:id="@+id/db_button15"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Database Schema" />
+
+            <Button
+                android:id="@+id/db_button16"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Database Schema Diagram" />
+
+            <Button
+                android:id="@+id/db_button17"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Relational Operations" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

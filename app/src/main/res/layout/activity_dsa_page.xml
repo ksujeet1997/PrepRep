@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DsaPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5ce1e6"
+        android:padding="5dp"
+        android:text="Data Structure &amp; Algorithm"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <Button
+                android:id="@+id/ds_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="What is Data Structure?"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="What is Pointer?"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="1-D Array"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="2-D Array"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Linked List - Introduction"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Singly Linked List"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Doubly Linked List"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Stack"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Queue"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Types of Queues"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Tree - Introduction"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Binary Search Tree"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="AVL Tree"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="B Tree"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="B+ Tree"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Heap"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Hashing"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Graph"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Spanning Tree"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/ds_button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Depth First Search"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Breadth First Search"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/ds_button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Bellman's Ford Algorithm"
+                android:textAlignment="textStart"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

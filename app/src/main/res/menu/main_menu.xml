@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Resources">
+
+            <menu>
+                <item
+                    android:id="@+id/menu_networks"
+                    android:title="Computer Networks" />
+
+                <item
+                    android:id="@+id/menu_dsa"
+                    android:title="Data Structure &amp; Algorithm" />
+
+                <item
+                    android:id="@+id/menu_dbms"
+                    android:title="Database Management" />
+
+
+                <item
+                    android:id="@+id/menu_os"
+                    android:title="Operating System" />
+            </menu>
+        </item>
+        <item android:title="Interview">
+            <menu>
+                <item android:title="Quiz" />
+                <item android:title="FAQ" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Logout"
+        android:icon="@drawable/ic_baseline_reply_24"
+        android:id="@+id/menu_logout"/>
+
+</menu>

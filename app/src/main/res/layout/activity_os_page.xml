@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OsPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating System"
+        android:textSize="30sp"
+        android:background="#5ce1e6"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:background="#fff" >
+
+            <Button
+                android:id="@+id/os_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="What is an Operating System?"
+                android:textAlignment="textStart"/>
+
+            <Button
+                android:id="@+id/os_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="Types of OS"
+                android:textAlignment="textStart"    />
+
+            <Button
+                android:id="@+id/os_button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="RAM vs ROM"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/os_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="SRAM and DRAM"
+                android:textAlignment="textStart"/>
+
+            <Button
+                android:id="@+id/os_button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:text="PROM, EPROM &amp; EEROM"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/os_button6"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Virtualisation vs Containerisation"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/os_button7"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="BIOS vs UEFI" />
+
+            <Button
+                android:id="@+id/os_button8"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="MBR vs GPT" />
+
+            <Button
+                android:id="@+id/os_button9"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Multiprogramming, Multiprocessing, Multitasking &amp; Multithreading" />
+
+            <Button
+                android:id="@+id/os_button10"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Monolithic vs MicroKernerl Architecture" />
+
+            <Button
+                android:id="@+id/os_button11"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Process vs Program" />
+
+            <Button
+                android:id="@+id/os_button12"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Different States of Program" />
+
+            <Button
+                android:id="@+id/os_button13"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="PCB Structure" />
+
+            <Button
+                android:id="@+id/os_button14"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Process vs Thread" />
+
+            <Button
+                android:id="@+id/os_button15"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textAlignment="textStart"
+                android:text="Process Scheduling" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
